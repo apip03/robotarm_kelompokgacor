@@ -1,0 +1,521 @@
+<?xml version='1.0' encoding='utf-8'?>
+<robot name="Robot_Arm">
+  <material name="silver">
+    <color rgba="0.700 0.700 0.700 1.000" />
+  </material>
+  <link name="base_link">
+    <inertial>
+      <origin rpy="0 0 0" xyz="0.000619 0.000000 0.018717" />
+      <mass value="1.114575279513355" />
+      <inertia ixx="1.6127e-03" ixy="2.0748e-12" ixz="-1.0808e-05" iyy="2.0397e-03" iyz="1.2818e-12" izz="3.0906e-03" />
+    </inertial>
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <mesh filename="package://robotic_arm_pjbl_description/meshes/base_link.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="silver" />
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <geometry>
+        <mesh filename="package://robotic_arm_pjbl_description/meshes/base_link.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="mg996R_v2_v7_1">
+    <inertial>
+      <origin rpy="0 0 0" xyz="-0.024374 -0.005000 -0.008802" />
+      <mass value="0.24550059914585104" />
+      <inertia ixx="3.7764e-05" ixy="-3.7463e-10" ixz="-5.9967e-07" iyy="6.3908e-05" iyz="1.5918e-10" izz="4.2364e-05" />
+    </inertial>
+    <visual>
+      <origin rpy="0 0 0" xyz="-0.0145 -0.005 -0.035" />
+      <geometry>
+        <mesh filename="package://robotic_arm_pjbl_description/meshes/mg996R_v2_v7_1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="silver" />
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="-0.0145 -0.005 -0.035" />
+      <geometry>
+        <mesh filename="package://robotic_arm_pjbl_description/meshes/mg996R_v2_v7_1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="mg996_arm_2pad_v1__1__1">
+    <inertial>
+      <origin rpy="0 0 0" xyz="0.000000 0.000006 0.000273" />
+      <mass value="0.006005329915614658" />
+      <inertia ixx="5.5260e-07" ixy="1.9079e-15" ixz="6.4677e-16" iyy="4.5595e-08" iyz="1.4501e-15" izz="5.7984e-07" />
+    </inertial>
+    <visual>
+      <origin rpy="0 0 0" xyz="-0.0 -0.0 -0.0505" />
+      <geometry>
+        <mesh filename="package://robotic_arm_pjbl_description/meshes/mg996_arm_2pad_v1__1__1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="silver" />
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="-0.0 -0.0 -0.0505" />
+      <geometry>
+        <mesh filename="package://robotic_arm_pjbl_description/meshes/mg996_arm_2pad_v1__1__1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="Tutup__Base_v11_1">
+    <inertial>
+      <origin rpy="0 0 0" xyz="-0.009973 -0.007147 0.027090" />
+      <mass value="0.7070663239380128" />
+      <inertia ixx="1.1866e-03" ixy="-4.0674e-05" ixz="1.4969e-04" iyy="1.1033e-03" iyz="1.9334e-04" izz="8.0066e-04" />
+    </inertial>
+    <visual>
+      <origin rpy="0 0 0" xyz="-0.0 -6e-06 -0.0532" />
+      <geometry>
+        <mesh filename="package://robotic_arm_pjbl_description/meshes/Tutup__Base_v11_1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="silver" />
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="-0.0 -6e-06 -0.0532" />
+      <geometry>
+        <mesh filename="package://robotic_arm_pjbl_description/meshes/Tutup__Base_v11_1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="mg996_arm_2pad_v1_1">
+    <inertial>
+      <origin rpy="0 0 0" xyz="-0.000221 0.000163 0.000000" />
+      <mass value="0.006005329915614658" />
+      <inertia ixx="5.7984e-07" ixy="-1.4192e-15" ixz="-2.1369e-15" iyy="4.5609e-08" iyz="-2.6547e-09" izz="5.5259e-07" />
+    </inertial>
+    <visual>
+      <origin rpy="0 0 0" xyz="0.006406 0.020205 -0.122346" />
+      <geometry>
+        <mesh filename="package://robotic_arm_pjbl_description/meshes/mg996_arm_2pad_v1_1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="silver" />
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="0.006406 0.020205 -0.122346" />
+      <geometry>
+        <mesh filename="package://robotic_arm_pjbl_description/meshes/mg996_arm_2pad_v1_1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="Link_2_v15_1">
+    <inertial>
+      <origin rpy="0 0 0" xyz="0.005973 0.057708 0.000453" />
+      <mass value="1.1593082559359793" />
+      <inertia ixx="2.0213e-03" ixy="3.6090e-05" ixz="6.7725e-07" iyy="3.4611e-04" iyz="-5.9692e-06" izz="1.8724e-03" />
+    </inertial>
+    <visual>
+      <origin rpy="0 0 0" xyz="0.003707 0.020139 -0.122346" />
+      <geometry>
+        <mesh filename="package://robotic_arm_pjbl_description/meshes/Link_2_v15_1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="silver" />
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="0.003707 0.020139 -0.122346" />
+      <geometry>
+        <mesh filename="package://robotic_arm_pjbl_description/meshes/Link_2_v15_1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="MG90S_Servo_Horn__2_spork__v1_1">
+    <inertial>
+      <origin rpy="0 0 0" xyz="0.003641 0.020481 -0.068052" />
+      <mass value="0.0023293743845412967" />
+      <inertia ixx="1.4281e-07" ixy="3.7628e-15" ixz="-1.8397e-15" iyy="8.2114e-09" iyz="-6.8679e-10" izz="1.3937e-07" />
+    </inertial>
+    <visual>
+      <origin rpy="0 0 0" xyz="-0.002729 -0.084475 -0.191053" />
+      <geometry>
+        <mesh filename="package://robotic_arm_pjbl_description/meshes/MG90S_Servo_Horn__2_spork__v1_1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="silver" />
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="-0.002729 -0.084475 -0.191053" />
+      <geometry>
+        <mesh filename="package://robotic_arm_pjbl_description/meshes/MG90S_Servo_Horn__2_spork__v1_1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="MG90S_Servo_Horn__2_spork__v1__1__1">
+    <inertial>
+      <origin rpy="0 0 0" xyz="0.004089 -0.098038 0.098446" />
+      <mass value="0.0023293743845412967" />
+      <inertia ixx="1.4281e-07" ixy="7.8980e-16" ixz="1.1864e-15" iyy="1.3937e-07" iyz="6.8679e-10" izz="8.2114e-09" />
+    </inertial>
+    <visual>
+      <origin rpy="0 0 0" xyz="-0.012981 -0.202346 -0.149323" />
+      <geometry>
+        <mesh filename="package://robotic_arm_pjbl_description/meshes/MG90S_Servo_Horn__2_spork__v1__1__1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="silver" />
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="-0.012981 -0.202346 -0.149323" />
+      <geometry>
+        <mesh filename="package://robotic_arm_pjbl_description/meshes/MG90S_Servo_Horn__2_spork__v1__1__1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="Gripper_Paralel_SG90_M5_v5_1">
+    <inertial>
+      <origin rpy="0 0 0" xyz="0.029393 -0.083535 0.069537" />
+      <mass value="0.18310530252689874" />
+      <inertia ixx="5.7390e-05" ixy="-3.7889e-06" ixz="-5.3392e-07" iyy="7.5492e-05" iyz="1.5480e-05" izz="7.4260e-05" />
+    </inertial>
+    <visual>
+      <origin rpy="0 0 0" xyz="0.027008 -0.232391 -0.168029" />
+      <geometry>
+        <mesh filename="package://robotic_arm_pjbl_description/meshes/Gripper_Paralel_SG90_M5_v5_1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="silver" />
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="0.027008 -0.232391 -0.168029" />
+      <geometry>
+        <mesh filename="package://robotic_arm_pjbl_description/meshes/Gripper_Paralel_SG90_M5_v5_1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="link_3_v8_1">
+    <inertial>
+      <origin rpy="0 0 0" xyz="-0.000346 0.027380 -0.007778" />
+      <mass value="0.5013830172546899" />
+      <inertia ixx="8.1084e-04" ixy="-3.0076e-08" ixz="-8.6448e-06" iyy="7.6865e-04" iyz="3.5065e-06" izz="7.9942e-05" />
+    </inertial>
+    <visual>
+      <origin rpy="0 0 0" xyz="-0.018357 -0.077013 -0.19383" />
+      <geometry>
+        <mesh filename="package://robotic_arm_pjbl_description/meshes/link_3_v8_1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="silver" />
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="-0.018357 -0.077013 -0.19383" />
+      <geometry>
+        <mesh filename="package://robotic_arm_pjbl_description/meshes/link_3_v8_1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="Mounting_Gripper_v10_1">
+    <inertial>
+      <origin rpy="0 0 0" xyz="0.005278 -0.074495 0.097622" />
+      <mass value="0.1387810088485666" />
+      <inertia ixx="5.3073e-05" ixy="1.1204e-06" ixz="6.6532e-08" iyy="3.2264e-05" iyz="-3.8630e-08" izz="4.3861e-05" />
+    </inertial>
+    <visual>
+      <origin rpy="0 0 0" xyz="0.004351 -0.19365 -0.150243" />
+      <geometry>
+        <mesh filename="package://robotic_arm_pjbl_description/meshes/Mounting_Gripper_v10_1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="silver" />
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="0.004351 -0.19365 -0.150243" />
+      <geometry>
+        <mesh filename="package://robotic_arm_pjbl_description/meshes/Mounting_Gripper_v10_1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="MG90S_v5_1">
+    <inertial>
+      <origin rpy="0 0 0" xyz="0.017835 -0.000089 0.004771" />
+      <mass value="0.022767916386716793" />
+      <inertia ixx="1.8048e-06" ixy="1.9830e-09" ixz="-2.2121e-07" iyy="3.1547e-06" iyz="-2.8523e-11" izz="2.1095e-06" />
+    </inertial>
+    <visual>
+      <origin rpy="0 0 0" xyz="-0.007150 -0.105000 -0.123000" />
+      <geometry>
+        <mesh filename="package://robotic_arm_pjbl_description/meshes/MG90S_v5_1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="silver" />
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="-0.007150 -0.105000 -0.123000" />
+      <geometry>
+        <mesh filename="package://robotic_arm_pjbl_description/meshes/MG90S_v5_1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="MG90S_v1_1">
+    <inertial>
+      <origin rpy="0 0 0" xyz="-0.020595 0.004779 -0.000026" />
+      <mass value="0.02276801022285205" />
+      <inertia ixx="1.8049e-06" ixy="2.2122e-07" ixz="3.3356e-10" iyy="2.1096e-06" iyz="-1.0973e-08" izz="3.1546e-06" />
+    </inertial>
+    <visual>
+      <origin rpy="0 0 0" xyz="-0.016250 -0.104300 -0.247800" />
+      <geometry>
+        <mesh filename="package://robotic_arm_pjbl_description/meshes/MG90S_v1_1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="silver" />
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="-0.016250 -0.104300 -0.247800" />
+      <geometry>
+        <mesh filename="package://robotic_arm_pjbl_description/meshes/MG90S_v1_1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="mg996R_v2_v7__1__1">
+    <inertial>
+      <origin rpy="0 0 0" xyz="-0.011579 -0.004386 -0.024399" />
+      <mass value="0.24550059914585104" />
+      <inertia ixx="4.2364e-05" ixy="2.9807e-09" ixz="-5.9966e-07" iyy="6.3907e-05" iyz="1.3726e-07" izz="3.7765e-05" />
+    </inertial>
+    <visual>
+      <origin rpy="0 0 0" xyz="0.019623 0.015604 -0.136878" />
+      <geometry>
+        <mesh filename="package://robotic_arm_pjbl_description/meshes/mg996R_v2_v7__1__1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="silver" />
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="0.019623 0.015604 -0.136878" />
+      <geometry>
+        <mesh filename="package://robotic_arm_pjbl_description/meshes/mg996R_v2_v7__1__1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="gripper_gear_a_1">
+    <inertial>
+      <origin rpy="0 0 0" xyz="0.000022 0.008095 -0.001013" />
+      <mass value="0.023262242930303698" />
+      <inertia ixx="2.8852e-06" ixy="-9.5985e-09" ixz="4.2138e-11" iyy="5.2168e-07" iyz="1.3670e-08" izz="3.2490e-06" />
+    </inertial>
+    <visual>
+      <origin rpy="0 0 0" xyz="-0.010800 -0.164110 -0.216730" />
+      <geometry>
+        <mesh filename="package://robotic_arm_pjbl_description/meshes/gripper_gear_a_1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="silver" />
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="-0.010800 -0.164110 -0.216730" />
+      <geometry>
+        <mesh filename="package://robotic_arm_pjbl_description/meshes/gripper_gear_a_1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="gripper_gear_b_1">
+    <inertial>
+      <origin rpy="0 0 0" xyz="-0.000044 0.008349 -0.001099" />
+      <mass value="0.02378380547257021" />
+      <inertia ixx="2.9072e-06" ixy="9.9205e-09" ixz="5.1941e-11" iyy="5.2436e-07" iyz="-1.4474e-08" izz="3.2887e-06" />
+    </inertial>
+    <visual>
+      <origin rpy="0 0 0" xyz="0.009400 -0.164110 -0.216730" />
+      <geometry>
+        <mesh filename="package://robotic_arm_pjbl_description/meshes/gripper_gear_b_1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="silver" />
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="0.009400 -0.164110 -0.216730" />
+      <geometry>
+        <mesh filename="package://robotic_arm_pjbl_description/meshes/gripper_gear_b_1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="gripper_link_left_1">
+    <inertial>
+      <origin rpy="0 0 0" xyz="-0.000001 0.012772 -0.001396" />
+      <mass value="0.016717941483359883" />
+      <inertia ixx="1.6063e-06" ixy="-5.7333e-09" ixz="-3.0020e-11" iyy="2.1413e-07" iyz="-7.8850e-09" izz="1.7200e-06" />
+    </inertial>
+    <visual>
+      <origin rpy="0 0 0" xyz="-0.030030 -0.158480 -0.217020" />
+      <geometry>
+        <mesh filename="package://robotic_arm_pjbl_description/meshes/gripper_link_left_1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="silver" />
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="-0.030030 -0.158480 -0.217020" />
+      <geometry>
+        <mesh filename="package://robotic_arm_pjbl_description/meshes/gripper_link_left_1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="gripper_link_right_1">
+    <inertial>
+      <origin rpy="0 0 0" xyz="0.000001 0.012782 -0.001396" />
+      <mass value="0.016717941483359845" />
+      <inertia ixx="1.6063e-06" ixy="5.7334e-09" ixz="3.0035e-11" iyy="2.1413e-07" iyz="-7.8850e-09" izz="1.7200e-06" />
+    </inertial>
+    <visual>
+      <origin rpy="0 0 0" xyz="0.028630 -0.158470 -0.217020" />
+      <geometry>
+        <mesh filename="package://robotic_arm_pjbl_description/meshes/gripper_link_right_1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="silver" />
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="0.028630 -0.158470 -0.217020" />
+      <geometry>
+        <mesh filename="package://robotic_arm_pjbl_description/meshes/gripper_link_right_1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="gripper_finger_left_1">
+    <inertial>
+      <origin rpy="0 0 0" xyz="-0.001489 0.014975 -0.001265" />
+      <mass value="0.051741877862863876" />
+      <inertia ixx="1.1089e-05" ixy="4.0169e-06" ixz="8.5147e-07" iyy="4.7434e-06" iyz="-1.5048e-06" izz="1.3300e-05" />
+    </inertial>
+    <visual>
+      <origin rpy="0 0 0" xyz="-0.010800 -0.189280 -0.213950" />
+      <geometry>
+        <mesh filename="package://robotic_arm_pjbl_description/meshes/gripper_finger_left_1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="silver" />
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="-0.010800 -0.189280 -0.213950" />
+      <geometry>
+        <mesh filename="package://robotic_arm_pjbl_description/meshes/gripper_finger_left_1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="gripper_finger_right_1">
+    <inertial>
+      <origin rpy="0 0 0" xyz="0.001489 0.014975 -0.001255" />
+      <mass value="0.05174187786286397" />
+      <inertia ixx="1.1089e-05" ixy="-4.0169e-06" ixz="-8.5147e-07" iyy="4.7434e-06" iyz="-1.5048e-06" izz="1.3300e-05" />
+    </inertial>
+    <visual>
+      <origin rpy="0 0 0" xyz="0.009400 -0.189280 -0.213940" />
+      <geometry>
+        <mesh filename="package://robotic_arm_pjbl_description/meshes/gripper_finger_right_1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="silver" />
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="0.009400 -0.189280 -0.213940" />
+      <geometry>
+        <mesh filename="package://robotic_arm_pjbl_description/meshes/gripper_finger_right_1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="base_to_servo1" type="fixed">
+    <origin rpy="0 0 0" xyz="0.014500 0.005000 0.035000" />
+    <parent link="base_link" />
+    <child link="mg996R_v2_v7_1" />
+  </joint>
+  <joint name="base" type="revolute">
+    <origin rpy="0 0 0" xyz="-0.014500 -0.005000 0.015500" />
+    <parent link="mg996R_v2_v7_1" />
+    <child link="mg996_arm_2pad_v1__1__1" />
+    <axis xyz="0.0 0.0 1.0" />
+    <limit effort="100" lower="0.0" upper="3.141593" velocity="100" />
+  </joint>
+  <joint name="arm1_to_tutup" type="fixed">
+    <origin rpy="0 0 0" xyz="0.000000 0.000006 0.002700" />
+    <parent link="mg996_arm_2pad_v1__1__1" />
+    <child link="Tutup__Base_v11_1" />
+  </joint>
+  <joint name="shoulder" type="revolute">
+    <origin rpy="0 0 0" xyz="0.013217 -0.004601 -0.014532" />
+    <parent link="mg996R_v2_v7__1__1" />
+    <child link="mg996_arm_2pad_v1_1" />
+    <axis xyz="0.999699 0.024528 0.0" />
+    <limit effort="100" lower="0.0" upper="3.141593" velocity="100" />
+  </joint>
+  <joint name="arm2_to_link2" type="fixed">
+    <origin rpy="0 0 0" xyz="0.002699 0.000066 0.000000" />
+    <parent link="mg996_arm_2pad_v1_1" />
+    <child link="Link_2_v15_1" />
+  </joint>
+  <joint name="link2_to_horn1" type="fixed">
+    <origin rpy="0 0 0" xyz="0.006436 0.104614 0.068707" />
+    <parent link="Link_2_v15_1" />
+    <child link="MG90S_Servo_Horn__2_spork__v1_1" />
+  </joint>
+  <joint name="link3_to_horn2" type="fixed">
+    <origin rpy="0 0 0" xyz="-0.005376 0.125333 -0.044507" />
+    <parent link="link_3_v8_1" />
+    <child link="MG90S_Servo_Horn__2_spork__v1__1__1" />
+  </joint>
+  <joint name="mounting_to_gripper" type="fixed">
+    <origin rpy="0 0 0" xyz="-0.022657 0.038741 0.017786" />
+    <parent link="Mounting_Gripper_v10_1" />
+    <child link="Gripper_Paralel_SG90_M5_v5_1" />
+  </joint>
+  <joint name="servo3_to_link3" type="fixed">
+    <origin rpy="0 0 0" xyz="0.011207 -0.027987 0.070830" />
+    <parent link="MG90S_v5_1" />
+    <child link="link_3_v8_1" />
+  </joint>
+  <joint name="servo4_to_mounting" type="fixed">
+    <origin rpy="0 0 0" xyz="-0.020601 0.089350 -0.097557" />
+    <parent link="MG90S_v1_1" />
+    <child link="Mounting_Gripper_v10_1" />
+  </joint>
+  <joint name="elbow" type="revolute">
+    <origin rpy="0 0 0" xyz="0.004421 0.020525 -0.068053" />
+    <parent link="MG90S_Servo_Horn__2_spork__v1_1" />
+    <child link="MG90S_v5_1" />
+    <axis xyz="-0.999699 -0.024528 0.0" />
+    <limit effort="100" lower="0.0" upper="3.141593" velocity="100" />
+  </joint>
+  <joint name="wrist" type="revolute">
+    <origin rpy="0 0 0" xyz="0.003269 -0.098046 0.098477" />
+    <parent link="MG90S_Servo_Horn__2_spork__v1__1__1" />
+    <child link="MG90S_v1_1" />
+    <axis xyz="0.999699 0.024528 -0.0" />
+    <limit effort="100" lower="0.0" upper="3.141593" velocity="100" />
+  </joint>
+  <joint name="tutup_to_servo2" type="fixed">
+    <origin rpy="0 0 0" xyz="-0.019623 -0.015610 0.083678" />
+    <parent link="Tutup__Base_v11_1" />
+    <child link="mg996R_v2_v7__1__1" />
+  </joint>
+  <joint name="gripper_servo" type="revolute">
+    <origin rpy="0 0 0" xyz="0.037808 -0.068281 0.048701" />
+    <parent link="Gripper_Paralel_SG90_M5_v5_1" />
+    <child link="gripper_gear_a_1" />
+    <axis xyz="0.002699 -0.110002 -0.993928" />
+    <limit effort="100" lower="0.0" upper="0.573515" velocity="100" />
+  </joint>
+  <joint name="gripper_gear_b" type="revolute">
+    <origin rpy="0 0 0" xyz="0.017608 -0.068281 0.048701" />
+    <parent link="Gripper_Paralel_SG90_M5_v5_1" />
+    <child link="gripper_gear_b_1" />
+    <axis xyz="-0.002699 0.110002 0.993928" />
+    <limit effort="100" lower="0.0" upper="0.573515" velocity="100" />
+  <mimic joint="gripper_servo" multiplier="1.0" offset="0" /></joint>
+  <joint name="gripper_link_left" type="revolute">
+    <origin rpy="0 0 0" xyz="0.057038 -0.073911 0.048991" />
+    <parent link="Gripper_Paralel_SG90_M5_v5_1" />
+    <child link="gripper_link_left_1" />
+    <axis xyz="-0.002699 0.110002 0.993928" />
+    <limit effort="100" lower="-0.573515" upper="0.0" velocity="100" />
+  <mimic joint="gripper_servo" multiplier="-1.0" offset="0" /></joint>
+  <joint name="gripper_link_right" type="revolute">
+    <origin rpy="0 0 0" xyz="-0.001622 -0.073921 0.048991" />
+    <parent link="Gripper_Paralel_SG90_M5_v5_1" />
+    <child link="gripper_link_right_1" />
+    <axis xyz="-0.002699 0.110002 0.993928" />
+    <limit effort="100" lower="0.0" upper="0.573515" velocity="100" />
+  <mimic joint="gripper_servo" multiplier="1.0" offset="0" /></joint>
+  <joint name="gripper_finger_left" type="revolute">
+    <origin rpy="0 0 0" xyz="0.000000 0.025170 -0.002780" />
+    <parent link="gripper_gear_a_1" />
+    <child link="gripper_finger_left_1" />
+    <axis xyz="-0.002699 0.110002 0.993928" />
+    <limit effort="100" lower="0.0" upper="0.573515" velocity="100" />
+  <mimic joint="gripper_servo" multiplier="1.0" offset="0" /></joint>
+  <joint name="gripper_finger_right" type="revolute">
+    <origin rpy="0 0 0" xyz="0.000000 0.025170 -0.002790" />
+    <parent link="gripper_gear_b_1" />
+    <child link="gripper_finger_right_1" />
+    <axis xyz="-0.002699 0.110002 0.993928" />
+    <limit effort="100" lower="-0.573515" upper="0.0" velocity="100" />
+  <mimic joint="gripper_servo" multiplier="-1.0" offset="0" /></joint>
+</robot>

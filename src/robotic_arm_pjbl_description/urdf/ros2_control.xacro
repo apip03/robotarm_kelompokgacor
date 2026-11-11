@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+  <xacro:macro name="ctrl_joint" params="name lower upper init:=0.0">
+    <joint name="${name}">
+      <command_interface name="position">
+        <param name="min">${lower}</param><param name="max">${upper}</param>
+      </command_interface>
+      <state_interface name="position"><param name="initial_value">${init}</param></state_interface>
+      <state_interface name="velocity"/>
+    </joint>
+  </xacro:macro>
+
+  <xacro:macro name="arm_ros2_control" params="use_sim controllers_file">
+    <ros2_control name="RoboticArmPjblSystem" type="system">
+      <hardware>
+        <xacro:if value="${use_sim}">
+          <plugin>gz_ros2_control/GazeboSimSystem</plugin>
+        </xacro:if>
+        <xacro:unless value="${use_sim}">
+          <plugin>mock_components/GenericSystem</plugin>
+        </xacro:unless>
+      </hardware>
+      <!-- JOINTS -->
+      <xacro:ctrl_joint name="base"         lower="0.0000" upper="3.1416" init="0.0"/>
+      <xacro:ctrl_joint name="shoulder"      lower="0.0000" upper="3.1416" init="0.0"/>
+      <xacro:ctrl_joint name="elbow"         lower="0.0000" upper="3.1416" init="0.0"/>
+      <xacro:ctrl_joint name="wrist"         lower="0.0000" upper="3.1416" init="0.0"/>
+      <xacro:ctrl_joint name="gripper_servo" lower="0.0000" upper="0.5735" init="0.0"/>
+      <!-- /JOINTS -->
+    </ros2_control>
+
+    <xacro:if value="${use_sim}">
+      <gazebo>
+        <plugin filename="gz_ros2_control-system" name="gz_ros2_control::GazeboSimROS2ControlPlugin">
+          <parameters>${controllers_file}</parameters>
+        </plugin>
+      </gazebo>
+    </xacro:if>
+  </xacro:macro>
+</robot>
