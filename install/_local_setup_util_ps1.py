@@ -1,4 +1,4 @@
-# Copyright 2016-2019 Dirk Thomas
+# Copyright 2016-2019
 # Licensed under the Apache License, Version 2.0
 
 import argparse
