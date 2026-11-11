@@ -1,0 +1,12 @@
+package.xml
+setup.cfg
+setup.py
+resource/robotic_arm_pjbl_control
+robotic_arm_pjbl_control/__init__.py
+robotic_arm_pjbl_control/send_trajectory.py
+robotic_arm_pjbl_control.egg-info/PKG-INFO
+robotic_arm_pjbl_control.egg-info/SOURCES.txt
+robotic_arm_pjbl_control.egg-info/dependency_links.txt
+robotic_arm_pjbl_control.egg-info/entry_points.txt
+robotic_arm_pjbl_control.egg-info/requires.txt
+robotic_arm_pjbl_control.egg-info/top_level.txt

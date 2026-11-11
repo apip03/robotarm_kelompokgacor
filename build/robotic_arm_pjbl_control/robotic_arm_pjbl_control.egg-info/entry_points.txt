@@ -1,0 +1,2 @@
+[console_scripts]
+send_trajectory = robotic_arm_pjbl_control.send_trajectory:main

@@ -1,0 +1,19 @@
+[1.897s] Invoking command in '/home/ryandaffa/robotic_arm_pjbl_ws/build/robotic_arm_pjbl_control': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ryandaffa/robotic_arm_pjbl_ws/build/robotic_arm_pjbl_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ryandaffa/robotic_arm_pjbl_ws/install/robotic_arm_pjbl_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ryandaffa/robotic_arm_pjbl_ws/build/robotic_arm_pjbl_control/build --no-deps symlink_data
+[2.094s] running develop
+[2.200s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:363: UserWarning: Unbuilt egg for pytest-repeat [unknown version] (/usr/lib/python3/dist-packages)
+[2.200s]   self.local_index = Environment(self.shadow_path + sys.path)
+[2.221s] running egg_info
+[2.233s] writing robotic_arm_pjbl_control.egg-info/PKG-INFO
+[2.234s] writing dependency_links to robotic_arm_pjbl_control.egg-info/dependency_links.txt
+[2.235s] writing entry points to robotic_arm_pjbl_control.egg-info/entry_points.txt
+[2.235s] writing requirements to robotic_arm_pjbl_control.egg-info/requires.txt
+[2.235s] writing top-level names to robotic_arm_pjbl_control.egg-info/top_level.txt
+[2.258s] reading manifest file 'robotic_arm_pjbl_control.egg-info/SOURCES.txt'
+[2.259s] writing manifest file 'robotic_arm_pjbl_control.egg-info/SOURCES.txt'
+[2.272s] running build_ext
+[2.273s] Creating /home/ryandaffa/robotic_arm_pjbl_ws/install/robotic_arm_pjbl_control/lib/python3.12/site-packages/robotic-arm-pjbl-control.egg-link (link to .)
+[2.273s] Installing send_trajectory script to /home/ryandaffa/robotic_arm_pjbl_ws/install/robotic_arm_pjbl_control/lib/robotic_arm_pjbl_control
+[2.273s] 
+[2.274s] Installed /home/ryandaffa/robotic_arm_pjbl_ws/build/robotic_arm_pjbl_control
+[2.274s] running symlink_data
+[2.296s] Invoked command in '/home/ryandaffa/robotic_arm_pjbl_ws/build/robotic_arm_pjbl_control' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ryandaffa/robotic_arm_pjbl_ws/build/robotic_arm_pjbl_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ryandaffa/robotic_arm_pjbl_ws/install/robotic_arm_pjbl_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ryandaffa/robotic_arm_pjbl_ws/build/robotic_arm_pjbl_control/build --no-deps symlink_data

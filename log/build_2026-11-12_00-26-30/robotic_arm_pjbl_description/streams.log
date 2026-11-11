@@ -1,0 +1,46 @@
+[0.018s] Invoking command in '/home/ryandaffa/robotic_arm_pjbl_ws/build/robotic_arm_pjbl_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ryandaffa/robotic_arm_pjbl_ws/install/robotic_arm_pjbl_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ryandaffa/robotic_arm_pjbl_ws/build/robotic_arm_pjbl_description -- -j4 -l4
+[0.173s] Invoked command in '/home/ryandaffa/robotic_arm_pjbl_ws/build/robotic_arm_pjbl_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ryandaffa/robotic_arm_pjbl_ws/install/robotic_arm_pjbl_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ryandaffa/robotic_arm_pjbl_ws/build/robotic_arm_pjbl_description -- -j4 -l4
+[0.181s] Invoking command in '/home/ryandaffa/robotic_arm_pjbl_ws/build/robotic_arm_pjbl_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ryandaffa/robotic_arm_pjbl_ws/install/robotic_arm_pjbl_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ryandaffa/robotic_arm_pjbl_ws/build/robotic_arm_pjbl_description
+[0.189s] -- Install configuration: ""
+[0.190s] -- Execute custom install script
+[0.190s] -- Up-to-date symlink: /home/ryandaffa/robotic_arm_pjbl_ws/install/robotic_arm_pjbl_description/share/robotic_arm_pjbl_description/urdf/robot_body.urdf
+[0.190s] -- Up-to-date symlink: /home/ryandaffa/robotic_arm_pjbl_ws/install/robotic_arm_pjbl_description/share/robotic_arm_pjbl_description/urdf/robotic_arm_pjbl.urdf.xacro
+[0.190s] -- Up-to-date symlink: /home/ryandaffa/robotic_arm_pjbl_ws/install/robotic_arm_pjbl_description/share/robotic_arm_pjbl_description/urdf/ros2_control.xacro
+[0.190s] -- Up-to-date symlink: /home/ryandaffa/robotic_arm_pjbl_ws/install/robotic_arm_pjbl_description/share/robotic_arm_pjbl_description/meshes/Gripper_Paralel_SG90_M5_v5_1.stl
+[0.190s] -- Up-to-date symlink: /home/ryandaffa/robotic_arm_pjbl_ws/install/robotic_arm_pjbl_description/share/robotic_arm_pjbl_description/meshes/Link_2_v15_1.stl
+[0.190s] -- Up-to-date symlink: /home/ryandaffa/robotic_arm_pjbl_ws/install/robotic_arm_pjbl_description/share/robotic_arm_pjbl_description/meshes/MG90S_Servo_Horn__2_spork__v1_1.stl
+[0.190s] -- Up-to-date symlink: /home/ryandaffa/robotic_arm_pjbl_ws/install/robotic_arm_pjbl_description/share/robotic_arm_pjbl_description/meshes/MG90S_Servo_Horn__2_spork__v1__1__1.stl
+[0.191s] -- Up-to-date symlink: /home/ryandaffa/robotic_arm_pjbl_ws/install/robotic_arm_pjbl_description/share/robotic_arm_pjbl_description/meshes/MG90S_v1_1.stl
+[0.191s] -- Up-to-date symlink: /home/ryandaffa/robotic_arm_pjbl_ws/install/robotic_arm_pjbl_description/share/robotic_arm_pjbl_description/meshes/MG90S_v5_1.stl
+[0.191s] -- Up-to-date symlink: /home/ryandaffa/robotic_arm_pjbl_ws/install/robotic_arm_pjbl_description/share/robotic_arm_pjbl_description/meshes/Mounting_Gripper_v10_1.stl
+[0.191s] -- Up-to-date symlink: /home/ryandaffa/robotic_arm_pjbl_ws/install/robotic_arm_pjbl_description/share/robotic_arm_pjbl_description/meshes/Tutup__Base_v11_1.stl
+[0.191s] -- Up-to-date symlink: /home/ryandaffa/robotic_arm_pjbl_ws/install/robotic_arm_pjbl_description/share/robotic_arm_pjbl_description/meshes/base_link.stl
+[0.191s] -- Up-to-date symlink: /home/ryandaffa/robotic_arm_pjbl_ws/install/robotic_arm_pjbl_description/share/robotic_arm_pjbl_description/meshes/gripper_finger_left_1.stl
+[0.191s] -- Up-to-date symlink: /home/ryandaffa/robotic_arm_pjbl_ws/install/robotic_arm_pjbl_description/share/robotic_arm_pjbl_description/meshes/gripper_finger_right_1.stl
+[0.191s] -- Up-to-date symlink: /home/ryandaffa/robotic_arm_pjbl_ws/install/robotic_arm_pjbl_description/share/robotic_arm_pjbl_description/meshes/gripper_gear_a_1.stl
+[0.191s] -- Up-to-date symlink: /home/ryandaffa/robotic_arm_pjbl_ws/install/robotic_arm_pjbl_description/share/robotic_arm_pjbl_description/meshes/gripper_gear_b_1.stl
+[0.191s] -- Up-to-date symlink: /home/ryandaffa/robotic_arm_pjbl_ws/install/robotic_arm_pjbl_description/share/robotic_arm_pjbl_description/meshes/gripper_link_left_1.stl
+[0.191s] -- Up-to-date symlink: /home/ryandaffa/robotic_arm_pjbl_ws/install/robotic_arm_pjbl_description/share/robotic_arm_pjbl_description/meshes/gripper_link_right_1.stl
+[0.191s] -- Up-to-date symlink: /home/ryandaffa/robotic_arm_pjbl_ws/install/robotic_arm_pjbl_description/share/robotic_arm_pjbl_description/meshes/link_3_v8_1.stl
+[0.191s] -- Up-to-date symlink: /home/ryandaffa/robotic_arm_pjbl_ws/install/robotic_arm_pjbl_description/share/robotic_arm_pjbl_description/meshes/mg996R_v2_v7_1.stl
+[0.191s] -- Up-to-date symlink: /home/ryandaffa/robotic_arm_pjbl_ws/install/robotic_arm_pjbl_description/share/robotic_arm_pjbl_description/meshes/mg996R_v2_v7__1__1.stl
+[0.191s] -- Up-to-date symlink: /home/ryandaffa/robotic_arm_pjbl_ws/install/robotic_arm_pjbl_description/share/robotic_arm_pjbl_description/meshes/mg996_arm_2pad_v1_1.stl
+[0.191s] -- Up-to-date symlink: /home/ryandaffa/robotic_arm_pjbl_ws/install/robotic_arm_pjbl_description/share/robotic_arm_pjbl_description/meshes/mg996_arm_2pad_v1__1__1.stl
+[0.191s] -- Up-to-date symlink: /home/ryandaffa/robotic_arm_pjbl_ws/install/robotic_arm_pjbl_description/share/robotic_arm_pjbl_description/launch/display.launch.py
+[0.192s] -- Up-to-date symlink: /home/ryandaffa/robotic_arm_pjbl_ws/install/robotic_arm_pjbl_description/share/robotic_arm_pjbl_description/rviz/display.rviz
+[0.192s] -- Up-to-date symlink: /home/ryandaffa/robotic_arm_pjbl_ws/install/robotic_arm_pjbl_description/share/ament_index/resource_index/package_run_dependencies/robotic_arm_pjbl_description
+[0.192s] -- Up-to-date symlink: /home/ryandaffa/robotic_arm_pjbl_ws/install/robotic_arm_pjbl_description/share/ament_index/resource_index/parent_prefix_path/robotic_arm_pjbl_description
+[0.192s] -- Up-to-date symlink: /home/ryandaffa/robotic_arm_pjbl_ws/install/robotic_arm_pjbl_description/share/robotic_arm_pjbl_description/environment/ament_prefix_path.sh
+[0.192s] -- Up-to-date symlink: /home/ryandaffa/robotic_arm_pjbl_ws/install/robotic_arm_pjbl_description/share/robotic_arm_pjbl_description/environment/ament_prefix_path.dsv
+[0.192s] -- Up-to-date symlink: /home/ryandaffa/robotic_arm_pjbl_ws/install/robotic_arm_pjbl_description/share/robotic_arm_pjbl_description/environment/path.sh
+[0.192s] -- Up-to-date symlink: /home/ryandaffa/robotic_arm_pjbl_ws/install/robotic_arm_pjbl_description/share/robotic_arm_pjbl_description/environment/path.dsv
+[0.192s] -- Up-to-date symlink: /home/ryandaffa/robotic_arm_pjbl_ws/install/robotic_arm_pjbl_description/share/robotic_arm_pjbl_description/local_setup.bash
+[0.192s] -- Up-to-date symlink: /home/ryandaffa/robotic_arm_pjbl_ws/install/robotic_arm_pjbl_description/share/robotic_arm_pjbl_description/local_setup.sh
+[0.192s] -- Up-to-date symlink: /home/ryandaffa/robotic_arm_pjbl_ws/install/robotic_arm_pjbl_description/share/robotic_arm_pjbl_description/local_setup.zsh
+[0.192s] -- Up-to-date symlink: /home/ryandaffa/robotic_arm_pjbl_ws/install/robotic_arm_pjbl_description/share/robotic_arm_pjbl_description/local_setup.dsv
+[0.193s] -- Symlinking: /home/ryandaffa/robotic_arm_pjbl_ws/install/robotic_arm_pjbl_description/share/robotic_arm_pjbl_description/package.dsv
+[0.201s] -- Up-to-date symlink: /home/ryandaffa/robotic_arm_pjbl_ws/install/robotic_arm_pjbl_description/share/ament_index/resource_index/packages/robotic_arm_pjbl_description
+[0.201s] -- Up-to-date symlink: /home/ryandaffa/robotic_arm_pjbl_ws/install/robotic_arm_pjbl_description/share/robotic_arm_pjbl_description/cmake/robotic_arm_pjbl_descriptionConfig.cmake
+[0.201s] -- Up-to-date symlink: /home/ryandaffa/robotic_arm_pjbl_ws/install/robotic_arm_pjbl_description/share/robotic_arm_pjbl_description/cmake/robotic_arm_pjbl_descriptionConfig-version.cmake
+[0.201s] -- Up-to-date symlink: /home/ryandaffa/robotic_arm_pjbl_ws/install/robotic_arm_pjbl_description/share/robotic_arm_pjbl_description/package.xml
+[0.204s] Invoked command in '/home/ryandaffa/robotic_arm_pjbl_ws/build/robotic_arm_pjbl_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ryandaffa/robotic_arm_pjbl_ws/install/robotic_arm_pjbl_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ryandaffa/robotic_arm_pjbl_ws/build/robotic_arm_pjbl_description

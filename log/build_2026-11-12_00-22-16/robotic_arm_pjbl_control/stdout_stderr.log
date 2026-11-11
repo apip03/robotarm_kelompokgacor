@@ -1,0 +1,24 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:363: UserWarning: Unbuilt egg for pytest-repeat [unknown version] (/usr/lib/python3/dist-packages)
+  self.local_index = Environment(self.shadow_path + sys.path)
+running egg_info
+creating robotic_arm_pjbl_control.egg-info
+writing robotic_arm_pjbl_control.egg-info/PKG-INFO
+writing dependency_links to robotic_arm_pjbl_control.egg-info/dependency_links.txt
+writing entry points to robotic_arm_pjbl_control.egg-info/entry_points.txt
+writing requirements to robotic_arm_pjbl_control.egg-info/requires.txt
+writing top-level names to robotic_arm_pjbl_control.egg-info/top_level.txt
+writing manifest file 'robotic_arm_pjbl_control.egg-info/SOURCES.txt'
+reading manifest file 'robotic_arm_pjbl_control.egg-info/SOURCES.txt'
+writing manifest file 'robotic_arm_pjbl_control.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ryandaffa/robotic_arm_pjbl_ws/install/robotic_arm_pjbl_control/lib/python3.12/site-packages/robotic-arm-pjbl-control.egg-link (link to .)
+Installing send_trajectory script to /home/ryandaffa/robotic_arm_pjbl_ws/install/robotic_arm_pjbl_control/lib/robotic_arm_pjbl_control
+
+Installed /home/ryandaffa/robotic_arm_pjbl_ws/build/robotic_arm_pjbl_control
+running symlink_data
+creating /home/ryandaffa/robotic_arm_pjbl_ws/install/robotic_arm_pjbl_control/share/ament_index
+creating /home/ryandaffa/robotic_arm_pjbl_ws/install/robotic_arm_pjbl_control/share/ament_index/resource_index
+creating /home/ryandaffa/robotic_arm_pjbl_ws/install/robotic_arm_pjbl_control/share/ament_index/resource_index/packages
+symbolically linking /home/ryandaffa/robotic_arm_pjbl_ws/build/robotic_arm_pjbl_control/resource/robotic_arm_pjbl_control -> /home/ryandaffa/robotic_arm_pjbl_ws/install/robotic_arm_pjbl_control/share/ament_index/resource_index/packages
+symbolically linking /home/ryandaffa/robotic_arm_pjbl_ws/build/robotic_arm_pjbl_control/package.xml -> /home/ryandaffa/robotic_arm_pjbl_ws/install/robotic_arm_pjbl_control/share/robotic_arm_pjbl_control
